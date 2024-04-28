@@ -13,7 +13,8 @@ h1{
 }
 
 h2{
-
+    font-weight: 800;
+    font-size: 50px;
 }
 
 h3{
@@ -27,6 +28,13 @@ h4{
     font-weight: bold;
     font-size: 20px;
 }
+
+p{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
 
 .wrapper{
     width: 960px;
@@ -101,25 +109,81 @@ button.cta.alt{
     background-color: #ffd400;
     box-shadow: 0 0 0 10px rgba(0, 0, 0, .15);
     color: #111111;
+}
 
+nav{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .20);
+    position: sticky;
+    top: 0;
+}
+
+nav .logo{
+    display: block;
+    width: 300px;
+    height: 40px;
+    position: absolute; top: 50%; left: 30px;
+    margin-top: -20px;
+    background: url(../img/logo.png);
+    background-size: 100%;
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+nav ul li{
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    font-size:30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #111111;
+    text-decoration: none;
+    padding: 35px 10px;
+    line-height: 30px;
+}
+
+.more-info{
+    text-align: center;
+}
+
+.more-info p{
+    margin: 18px 0 35px;
+}
+
+.more-info h2{
+    margin: 50px 0 0;
+}
+
+.highlight{
+    background-color: #FFADF9;
+    color: #FF3300;
+    padding: 5px 10px;
+    line-height: 50px;
+    display: inline;
+    font-weight: 800;
 }
 
 
 
-.c
-
 /*
-<div class="hero-banner">
-        <div class="wrapper">
-            <h4>Frank from <a href="https://taptapkaboom.com">FDweb</a> presents</h4>
-            <h1>The silliest &amp <br/>
-                Most Awesome Gang <br/>
-                In The World!</h1>
-                <h3> It's Circle guy, Hat Guy &amp Red Guy <br/>
-                They're the best of friends.</h3>
-                <button class="cta alt">Read more</button>
-        </div>
-        <div class="character1"></div>
-        <div class="character2"></div>
-        <div class="character3"></div>
-    </div> */
+<div class="more-info" id="more-info">
+        <h2>Join Our Fan Club</h2>
+        <p>Every week we have <span class="highlight">a party.</span> If you want to join us then join our fan club.
+        Members will also receive pictures of us in all kinds of shapes and sizes. Cool huh?</p>
+        <button class="cta">Sign Me Up!</button>
+    </div>
+ */
